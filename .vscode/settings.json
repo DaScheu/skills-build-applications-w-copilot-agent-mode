@@ -1,0 +1,10 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python3 octofit-tracker/backend/manage\\.py runserver 0\\.0\\.0\\.0:8000$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "pip": true,
+        "npm install": true
+    }
+}
